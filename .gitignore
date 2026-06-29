@@ -1,3 +1,5 @@
 # Ignore the contents of the weights folder, but keep the folder itself
 weights/*.pth
 weights/*.pt
+data/raw/*
+data/processed/*
