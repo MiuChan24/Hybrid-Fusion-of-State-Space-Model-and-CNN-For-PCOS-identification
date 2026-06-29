@@ -123,16 +123,7 @@ Neha Singh
 
 Manipal University Jaipur
 
-If you find this code or our processed dataset useful in your research, please consider citing our work:
 
-Code snippet
-@article{singh2026pcos,
-  title={Domain-Synced Soft-Voting Ensemble for Automated PCOS Diagnosis using State-Space Models and CNNs},
-  author={Singh, Neha},
-  journal={[Target Journal Name]},
-  year={2026},
-  publisher={[Publisher]}
-}
 Acknowledgments: Baseline architectures were imported via standard torchvision implementations. The MedMamba backbone architecture was adapted from the original repository by Yue et al.
 
 
