@@ -5,7 +5,9 @@ PyTorch implementation of a hybrid State Space and CNN ensemble for denoised, mu
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)](https://pytorch.org/)
-[![DOI](https://zenodo.org/badge/DOI/(https://doi.org/10.5281/zenodo.21046275)
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21046275.svg)](https://doi.org/10.5281/zenodo.21046275)
+
+## Overview
 
 ## Overview
 This repository contains the official code and evaluation framework for our diagnostic pipeline aimed at automating the detection of Polycystic Ovary Syndrome (PCOS) from ultrasound imagery. 
