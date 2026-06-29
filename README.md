@@ -21,7 +21,10 @@ By integrating state-space models (**MedMamba**) with established Convolutional 
 ## 📊 1. Proposed Pipeline Architecture
 ![Pipeline Architecture](docs/pipeline_architecture.png) 
 *(Please see the original manuscript for the high-resolution architecture diagram detailing the integration of MedMamba and ResNet-50).*
+
 <img width="756" height="1300" alt="image" src="https://github.com/user-attachments/assets/61b34e16-931e-4f09-b095-a6bcc12210bb" />
+
+
 Methodology of Project
 
 ---
