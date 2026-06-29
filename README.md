@@ -5,7 +5,7 @@ PyTorch implementation of a hybrid State Space and CNN ensemble for denoised, mu
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)](https://pytorch.org/)
-[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21046275.svg)](https://doi.org/10.5281/zenodo.21046275)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21046275.svg)](https://doi.org/10.5281/zenodo.21046275)
 
 ## Overview
 
