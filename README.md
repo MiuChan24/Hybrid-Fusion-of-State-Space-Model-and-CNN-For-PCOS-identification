@@ -57,16 +57,20 @@ The raw ultrasound images utilized in this study were sourced from publicly avai
 ├── requirements.txt
 └── .gitignore
 ```
-⚙️ 4. Installation & Setup
+##⚙️ 4. Installation & Setup
 Clone the repository:
 
 Bash
-git clone [https://github.com/YourUsername/Your-Repo-Name.git](https://github.com/YourUsername/Your-Repo-Name.git)
-cd Your-Repo-Name
+git clone [https://github.com/YourUsername/Hybrid-Fusion-of-State-Space-Model-and-CNN-For-PCOS-identification
+.git](https://github.com/YourUsername/Hybrid-Fusion-of-State-Space-Model-and-CNN-For-PCOS-identification
+.git)
+cd Hybrid-Fusion-of-State-Space-Model-and-CNN-For-PCOS-identification
+
 Install dependencies:
 
-Bash
-pip install -r requirements.txt
+```Bash
+pip install -r requirements.txt ```
+
 Download Weights & Data:
 
 Download the processed dataset and pre-trained weights from [Zenodo DOI].
@@ -93,14 +97,14 @@ The Domain-Synced Soft-Voting Ensemble successfully leverages the global context
 
 The table below details the performance of the proposed Domain-Synced Soft-Voting Ensemble against standard baseline architectures on the CLAHE-enhanced test set.
 
-Architecture	Macro Precision	Macro Recall	Macro F1-Score	Accuracy
-Final Synced Ensemble	0.93	0.90	0.91	0.90
-Hybrid Ensemble (Mamba + ResNet)	0.88	0.82	0.83	0.82
-ResNet-50 (CLAHE)	0.85	0.87	0.86	0.87
-ResNet-50 (Standard)	0.91	0.85	0.87	0.87
-DenseNet-121	0.89	0.83	0.85	0.84
-EfficientNet-B0	0.76	0.79	0.75	0.75
-Penalized MedMamba	0.82	0.73	0.76	0.75
+Architecture	                    Macro Precision	  Macro Recall	  Macro F1-Score	  Accuracy
+Final Synced Ensemble	                0.93	          0.90	            0.91	          0.90
+Hybrid Ensemble (Mamba + ResNet)	    0.88	          0.82	            0.83	          0.82
+ResNet-50 (CLAHE)	                    0.85          	0.87	            0.86        	  0.87
+ResNet-50 (Standard)	                0.91          	0.85            	0.87        	  0.87
+DenseNet-121	                        0.89          	0.83            	0.85        	  0.84
+EfficientNet-B0	                      0.76          	0.79            	0.75        	  0.75
+Penalized MedMamba	                  0.82	          0.73	            0.76	          0.75
 
 
 <img width="939" height="733" alt="image" src="https://github.com/user-attachments/assets/6615f298-6a91-4981-8a6f-c709216c6ecf" />
