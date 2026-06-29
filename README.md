@@ -69,7 +69,7 @@ cd Hybrid-Fusion-of-State-Space-Model-and-CNN-For-PCOS-identification
 Install dependencies:
 
 ```Bash
-pip install -r requirements.txt ```
+pip install -r requirements.txt 
 
 Download Weights & Data:
 
