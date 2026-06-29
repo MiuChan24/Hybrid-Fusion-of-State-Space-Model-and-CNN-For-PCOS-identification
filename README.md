@@ -76,6 +76,7 @@ Download Weights & Data:
 Download the processed dataset and pre-trained weights from [Zenodo DOI].
 
 Place the images in a local data/ folder and the .pth files in the weights/ folder.
+```
 
 
 ## 🚀 5. Usage
@@ -90,8 +91,9 @@ To evaluate the proposed ensemble model and generate the final Confusion Matrix 
 
 ```bash
 python evaluate/evaluate_ensemble.py --weights_path weights/ --data_dir data/clahe_enhanced
+```
 
-##📈 6. Results
+## 📈 6. Results
 The Domain-Synced Soft-Voting Ensemble successfully leverages the global context extraction of MedMamba alongside the localized feature extraction of ResNet-50, demonstrating superior performance over baseline models (DenseNet-121, EfficientNet) across all clinical metrics.
 ### Quantitative Performance Comparison
 
@@ -113,7 +115,7 @@ Penalized MedMamba	                  0.82	          0.73	            0.76	      
 
 
 
-##🖋️ 7. Author & Citation
+## 🖋️ 7. Author & Citation
 Neha Singh
 
 Manipal University Jaipur
