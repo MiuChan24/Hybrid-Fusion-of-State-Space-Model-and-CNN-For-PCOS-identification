@@ -7,7 +7,7 @@ PyTorch implementation of a hybrid State Space and CNN ensemble for denoised, mu
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21046275.svg)](https://doi.org/10.5281/zenodo.21046275)
 
-## Overview
+
 
 ## Overview
 This repository contains the official code and evaluation framework for our diagnostic pipeline aimed at automating the detection of Polycystic Ovary Syndrome (PCOS) from ultrasound imagery. 
@@ -21,6 +21,8 @@ By integrating state-space models (**MedMamba**) with established Convolutional 
 ## 📊 1. Proposed Pipeline Architecture
 ![Pipeline Architecture](docs/pipeline_architecture.png) 
 *(Please see the original manuscript for the high-resolution architecture diagram detailing the integration of MedMamba and ResNet-50).*
+<img width="756" height="1300" alt="image" src="https://github.com/user-attachments/assets/61b34e16-931e-4f09-b095-a6bcc12210bb" />
+Methodology of Project
 
 ---
 
@@ -104,15 +106,3 @@ Acknowledgments: Baseline architectures were imported via standard torchvision i
 
 ***
 
-### 🖼️ Diagrams You Need to Add
-To make the README look professional (as referenced in the markdown above), you should create a folder named `docs/` or `images/` in your repository and upload the following images:
-
-1.  **`pipeline_architecture.png`**: You need to create a flowchart (using a tool like draw.io, BioRender, or PowerPoint). It should show:
-    *   **Input:** Raw Ultrasound Image $\rightarrow$ Preprocessing (CLAHE + pHash).
-    *   **Branches:** The processed image splitting into the MedMamba block and the ResNet-50 block.
-    *   **Fusion:** Both outputting to a "Soft-Voting Ensemble" block.
-    *   **Output:** The 3 final classes (Normal, PCO, Dominant Follicle).
-2.  **`ensemble_roc_curve.png`**: You already generated this! Take the `Ensemble_ROC_Curve.png` file I saw in your folder screenshot earlier and upload it to the `docs/` folder. 
-3.  **`sample_data.png` (Optional but recommended):** A single image showing three ultrasound frames side-by-side: one Normal, one PCO, and one Dominant Follicle, ideally showing the "Before CLAHE" and "After CLAHE" difference.
-
-<FollowUp label="Ready for the final step?" query="Your repository is now completely p
