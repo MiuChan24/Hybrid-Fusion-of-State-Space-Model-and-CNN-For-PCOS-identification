@@ -86,6 +86,23 @@ Bash
 python evaluate/evaluate_ensemble.py --weights_path weights/ --data_dir data/clahe_enhanced
 📈 6. Results
 The Domain-Synced Soft-Voting Ensemble successfully leverages the global context extraction of MedMamba alongside the localized feature extraction of ResNet-50, demonstrating superior performance over baseline models (DenseNet-121, EfficientNet) across all clinical metrics.
+### Quantitative Performance Comparison
+
+The table below details the performance of the proposed Domain-Synced Soft-Voting Ensemble against standard baseline architectures on the CLAHE-enhanced test set.
+
+Architecture	Macro Precision	Macro Recall	Macro F1-Score	Accuracy
+Final Synced Ensemble	0.93	0.90	0.91	0.90
+Hybrid Ensemble (Mamba + ResNet)	0.88	0.82	0.83	0.82
+ResNet-50 (CLAHE)	0.85	0.87	0.86	0.87
+ResNet-50 (Standard)	0.91	0.85	0.87	0.87
+DenseNet-121	0.89	0.83	0.85	0.84
+EfficientNet-B0	0.76	0.79	0.75	0.75
+Penalized MedMamba	0.82	0.73	0.76	0.75
+
+
+<img width="939" height="733" alt="image" src="https://github.com/user-attachments/assets/6615f298-6a91-4981-8a6f-c709216c6ecf" />
+
+*Note: The proposed ensemble demonstrates the highest performance across all primary classification metrics, effectively balancing sensitivity and specificity for clinical diagnostic utility.*
 
 (Insert your ensemble ROC curve image here)
 
