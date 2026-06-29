@@ -57,19 +57,22 @@ The raw ultrasound images utilized in this study were sourced from publicly avai
 ├── requirements.txt
 └── .gitignore
 ```
-##⚙️ 4. Installation & Setup
+## ⚙️ 4. Installation & Setup
 Clone the repository:
 
 Bash
 git clone [https://github.com/YourUsername/Hybrid-Fusion-of-State-Space-Model-and-CNN-For-PCOS-identification
 .git](https://github.com/YourUsername/Hybrid-Fusion-of-State-Space-Model-and-CNN-For-PCOS-identification
 .git)
+
 cd Hybrid-Fusion-of-State-Space-Model-and-CNN-For-PCOS-identification
+
 
 Install dependencies:
 
 ```Bash
 pip install -r requirements.txt 
+
 
 Download Weights & Data:
 
