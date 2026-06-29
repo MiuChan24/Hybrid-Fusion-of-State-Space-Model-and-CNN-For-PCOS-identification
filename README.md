@@ -5,7 +5,7 @@ PyTorch implementation of a hybrid State Space and CNN ensemble for denoised, mu
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)](https://pytorch.org/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21046275.svg)](https://doi.org/10.5281/zenodo.21046275)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21048116.svg)](https://doi.org/10.5281/zenodo.21048116)
 
 
 
@@ -130,3 +130,17 @@ Acknowledgments: Baseline architectures were imported via standard torchvision i
 
 ***
 
+## 📚 8. Citations & Acknowledgments
+
+### Dataset and Model Weights
+The cryptographically sanitized PCOS ultrasound dataset and the pre-trained weights for the proposed Domain-Synced Soft-Voting Ensemble are hosted on Zenodo. If you utilize these research artifacts, please cite:
+
+* **Data & Weights Archive:** [10.5281/zenodo.21048116](https://doi.org/10.5281/zenodo.21048116)
+
+### Baseline Architectures
+The baseline Convolutional Neural Networks (ResNet-50, DenseNet-121, and EfficientNet-B0) were implemented utilizing the official PyTorch `torchvision` library. Please refer to and cite the original literature when adapting these architectures:
+
+* **ResNet-50:** He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep Residual Learning for Image Recognition. In *Proceedings of the IEEE conference on computer vision and pattern recognition* (pp. 770-778).
+* **DenseNet-121:** Huang, G., Liu, Z., Van Der Maaten, L., & Weinberger, K. Q. (2017). Densely Connected Convolutional Networks. In *Proceedings of the IEEE conference on computer vision and pattern recognition* (pp. 4700-4708).
+* **EfficientNet-B0:** Tan, M., & Le, Q. (2019). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. In *International conference on machine learning* (pp. 6105-6114). PMLR.
+* **Torchvision Library:** TorchVision maintainers and contributors. (2016). *torchvision: PyTorch's Computer Vision library*. GitHub repository: [https://github.com/pytorch/vision](https://github.com/pytorch/vision)
